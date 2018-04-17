@@ -1,0 +1,36 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<img src="http://storage.iseverance.com/2013_obj_sev/top/logo_severance.gif">
+			<p>이름: <input type="text" name="name" /></p>
+			<p>연락처: <input type="text" name="phone" /></p>
+			<p>이용 날짜:<input type="date" name="depart" /></p>
+			<fieldset style="width=30">
+				<legend>세부사항</legend>
+			<p>이용시간:
+				<br />
+				<input type="radio" name="genre" value="오전(09:00)" checked="checked" /> 오전(09:00)
+				<input type="radio" name="genre" value="오전~오후 넘어가는 타임(12:00)" /> 오전~오후 넘어가는 타임(12:00)
+				<input type="radio" name="genre" value="오후(15:00)" /> 오후(15:00)
+			</p>
+			<p>사전 확인 사항:
+				<br />
+				<input type="checkbox" name="service[]" value="진료과에 처음 예약" checked="checked" /> 진료과에 처음 예약
+				<input type="checkbox" name="service[]" value="진료과에 재 예약" /> 진료과에 재 예약
+				<input type="checkbox" name="service[]" value="첫/재진료여부 확인이 필요한 경우" /> 첫/재진료여부 확인이 필요한 경우
+			</p>
+			<p>선호하는 의사 ?</p>
+			<select name="chef">
+				<option value="가나다">가나다 전문의</option>
+				<option value="라마바">라마바 전문의</option>
+				<option value="사아자">사아자 전문의</option>
+			</select>
+			</fieldset>
+			<p>긴글 작성: <textarea name="comments" cols="20" rows="4">기타 요구사항을 작성해 주세요~~</textarea></p>
+
+			<p><input type="submit" /></p>
+		</form>	
+	</body>
+</html>
