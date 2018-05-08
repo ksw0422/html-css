@@ -1,10 +1,100 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-GB">
 <head>
 	<title>CSS Layout 만들기</title>
-	<meta http-equiv="Content-Type" content="text/html; charset="utf-8" />
-        <link rel="stylesheet" type="text/css" href="Layout15.css" media="screen" />
-
+	<meta charset="utf-8">
+<style type="text/css">
+{
+	margin:0;
+	padding:0;
+}
+h2 {
+	padding:1em 0 0 0;
+}
+p {
+	line-height:1.4em;
+}
+p + p {
+	text-indent:2em;
+}
+body {
+	font-size:100%;
+	text-align:center;
+	background:#ddd;
+}
+pre {
+	display:block;
+	margin:1em 0 0 0;
+	width:488px;
+}
+pre code {
+	background:#eee;
+	display:block;
+	padding:10px;
+}
+.r {
+	float:right;
+	padding:0 0 10px 20px;
+}
+#wrap {
+	margin:0 auto;
+	width: 1024px;
+	position:relative;
+	overflow:hidden;
+	text-align:left;
+	background:#fff;
+}
+#header {
+	float:left;
+	width:1024px;
+	padding:10px 0 20px 0;
+	background:#fff;
+	border-bottom:1px solid #000;
+}
+#header h1 {
+	padding:10px 30px 0 30px;
+}
+#header p {
+	padding:0 30px;
+	line-height:1.4em;
+}
+#content {
+	float:left;
+	width:1024px;
+	background:#eee;
+	position:relative;
+	left:30px;
+}
+#main {
+	float:left;
+	width:708px;
+	position:relative;
+	right:30px;
+	padding:20px 0;
+}
+#side {
+	float:right;
+	width:216px;
+	position:relative;
+	right:20px;
+	padding-bottom:20px;
+}
+#sidea,
+#sideb,
+#sidec {
+	clear:left;
+	float:left;
+	width:216px;
+}
+#footer {
+	clear:both;
+	float:left;
+	width:1024px;
+	border-top:1px solid #000;
+	background:#ddd;
+}
+#footer p {
+	padding:20px 30px;
+}
+	</style>
 </head>
 <body>
 
