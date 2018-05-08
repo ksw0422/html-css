@@ -1,0 +1,76 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-GB">
+<head>
+	<title>CSS Layout 만들기</title>
+	<meta http-equiv="Content-Type" content="text/html; charset="utf-8" />
+        <link rel="stylesheet" type="text/css" href="Layout15.css" media="screen" />
+
+</head>
+<body>
+
+<div id="wrap">
+	<div id="header">
+		<h1>CSS Layout 만들어 보세요</h1>
+		<p>예제 그림에 있는 레이아웃을  CSS  를 수정 하여 완성 하시면 됩니다.  <strong> html 컨텐츠는 그대로 사용하시면 됩니다. </strong></p>
+	</div>
+	<div id="content">
+		<div id="main">
+			<h2>Layout 구조는 그림에서 확인하세요</h2>
+			<p>주어진 그임에 속성 값과 엘리먼트를 잘 읽고 필요한 부분에 수정을 하시면 됩니다.</p>
+			<h2>div 구조도 </h2>
+			<img src="ipad-layout-nested-divs.gif" width="200" height="300" alt="iPad layout structural divs" class="r" />
+			<p>아래 그림과 태그 들을 확인 하여 구조에 맞는 레이아웃이 나오도록 작성하시면 됩니다. .</p>
+<pre><code>&lt;div id="wrap"&gt;
+   &lt;div id="header"&gt;&lt;/div&gt;
+   &lt;div id="content"&gt;
+      &lt;div id="main"&gt;&lt;/div&gt;
+      &lt;div id="side"&gt;
+         &lt;div id="sidea"&gt;&lt;/div&gt;
+         &lt;div id="sideb"&gt;&lt;/div&gt;
+         &lt;div id="sidec"&gt;&lt;/div&gt;
+      &lt;/div&gt;
+   &lt;/div&gt;
+   &lt;div id="footer"&gt;&lt;/div&gt;
+&lt;/div&gt;</code></pre><br />
+			<h2> 주의 깊게 살펴 볼 속성</h2>
+			<p>수정후  /* ~~ */ 주석 처리를 지우시면 모든 파일에 적용 됩니다.</p>
+			<h2>보기의 내용 중 수치를 입력하세요</h2>
+			<p>1024x 768 pixels 내용으로 각 레이아웃의 크기를 지정하시면 됩니다. 필요시 속성값을 수정 하여 작성하시면 됩니다. </p>
+			<!-- Main content end -->
+		</div>
+		<div id="side">
+			<div id="sidea">
+				<!-- Side A content start -->
+				<h2>100% Pure CSS</h2>
+				<p>No CSS hacks have been used in this layout. A mixture of floats and relative positioning is all that's required for the structural divs. This method works for all common browsers.</p>
+				<h2>No JavaScript</h2>
+				<p>JavaScript is not necessary to make this layout work on the iPad or any other browser. The switch between portrait and landscape layouts is done with pure CSS.</p>
+				<h2>No Images</h2>
+				<p>This layout does not require images. Many CSS website designs need images to colour in the column backgrounds but that is not necessary with this design.</p>
+				<!-- Side A content end -->
+			</div>
+			<div id="sideb">
+				<!-- Side B content start -->
+				<h2>SEO friendly</h2>
+				<p>The higher up content is in your page code, the more important it is considered by search engine algorithms. To make your website as optimised as possible, your main page content must come before any side columns. This layout does exactly that.</p>
+				<h2>Full length column background colours</h2>
+				<p>In landscape mode the background colours of the two columns will always stretch to the length of the longest column.</p>
+				<!-- Side B content end -->
+						   </div>
+			<div id="sidec">
+				<!-- Side C content start -->
+				<h2>Resizable text compatible</h2>
+				<p>This layout is fully compatible with resizable text. Resizable text is important for web accessibility - people who are vision impaired can make the text larger so it's easier for them to read.</p>
+				<h2>Valid XHTML strict markup</h2>
+				<p>The HTML in this layout validates as XHTML 1.0 strict.</p>
+				<!-- Side C content end -->
+			</div>
+		</div>
+	</div>
+	<div id="footer">
+		<p>이 레이아웃은 Matthew James Taylor의 내용을 수정 한 것입니다. </a></p>
+	</div>
+</div>
+
+</body>
+</html>
