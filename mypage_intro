@@ -1,0 +1,97 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Images</title>
+		<style type="text/css">
+			body {
+				color: #665544;
+				background-color: #d4d0c6;
+				background-image: url("images/backdrop.gif");
+				font-family: Georgia, "Times New Roman", serif;
+				text-align: center;}
+			.wrapper {
+				width: 720px;
+				margin: 0px auto;}
+			.header {
+				margin: 40px 0px 20px 0px;}
+			.entry {
+				width: 220px;
+				float: left;
+				margin: 10px;
+				height: 198px;
+				background-image: url("images/shadow.png");
+				background-repeat: no-repeat;
+				background-position: bottom;}
+			figure {
+				display: block;
+				width: 202px;
+				height: 170px;
+				background-color: #e7e3d8;
+				margin: 0;
+				padding: 9px;
+				text-align: left;}
+			figure img {
+				width: 200px;
+				height: 150px;
+				border: 1px solid #d6d6d6;}
+			figcaption {
+				background-image: url("images/icon.png");
+				padding-left: 20px;
+				background-repeat: no-repeat;}
+		</style>
+	</head>
+	<body>
+		<div class="wrapper">
+			<div class="header">
+				<img src="http://post.phinf.naver.net/20140413_190/kwckjh0428_1397394958459KjvdW_JPEG/mug_obj_139739495710633762.jpg" alt="my blog" width="100" height="40" />
+				<p>엠씨더맥스 이야기</p>
+			</div>
+			<div class="entry">
+				<figure><img src="http://shop1.phinf.naver.net/20170317_48/crazing_14897346860204iwNB_JPEG/14080987763313212_1477541666.jpg" alt="1집" />
+					<figcaption>1집</figcaption>
+				</figure>
+			</div>
+			<div class="entry">
+				<figure><img src="http://post.phinf.naver.net/MjAxNjEwMjFfMTIy/MDAxNDc3MDMxMDg3ODk3.-xDERLVQyAYJjJ-7qKj217g8JICQU3sTpST1F95ND0wg.n96DiLh0RQR4JrDMnOLm517VZTMOilF7T4tY2s9ZDBQg.PNG/I2QTlMLbrKrSk35c6-16NptuIgWc.jpg" alt="2집" />
+					<figcaption>2집</figcaption>
+				</figure>
+			</div>
+			<div class="entry">
+				<figure><img src="http://post.phinf.naver.net/MjAxNjExMDJfMjk0/MDAxNDc4MDcyMDUwOTMw.74lFH5p5-AGo4V1kwDcqZMW4WO76tz6ke-kzQI4__oAg.PnKt3y0YXGNcQE2mCy78nToxxQXuFabL0_f_D_HhsVwg.JPEG/Io9Ms3-ROHSn-cQv1Q8e7LVRSNVo.jpg" alt="3집" />
+					<figcaption>3집</figcaption>
+				</figure>
+			</div>
+			<div class="entry">
+				<figure><img src="http://musicmeta.phinf.naver.net/photo/000/042/42829.jpg" alt="4집" />
+					<figcaption>4집</figcaption>
+				</figure>
+			</div>
+			<div class="entry">
+				<figure><img src="http://blogfiles1.naver.net/data17/2007/4/19/271/max1_1-vanillato.jpg" alt="5집" />
+					<figcaption>5집</figcaption>
+				</figure>
+			</div>
+			<div class="entry">
+				<figure><img src="http://shop1.phinf.naver.net/20120906_2/nmp_1346927919501KKmx1_JPEG/25481428540100978_-1010287978.jpg" alt="6집" />
+					<figcaption>6집</figcaption>
+				</figure>
+			</div>
+            <div class="entry">
+				<figure><img src="http://blogfiles6.naver.net/20140102_133/djdnfxj00_1388612791141A4RXa_JPEG/mc_the_max.JPG" alt="7집" />
+					<figcaption>7집</figcaption>
+				</figure>
+			</div>
+            <div class="entry">
+				<figure><img src="http://blogfiles13.naver.net/20160128_177/enqndjaak0101_1453966230004yGuvd_JPEG/%BF%A5%BE%BE%B4%F5%B8%C6%BD%BA8%C1%FD_%BE%EE%B5%F0%BF%A1%B5%B5_02.jpg" alt="8집" />
+					<figcaption>8집</figcaption>
+				</figure>
+			</div>
+            <div class="entry">
+				<figure><img src="https://post-phinf.pstatic.net/MjAxODA0MTJfMTU0/MDAxNTIzNDkxMzk1OTQw.CMaOpZ_KmMGxbM2HnoaDJE7UWFp4OzQmO4s9QK9BcNQg.WyeOFQJ8k7pfoc05uVX9XMDEA-nmYZY5LXAyNaA4VUwg.PNG/I3A46Q45BNVsQdn0txWAXQg91yDQ.jpg" alt="기타(ost)" />
+					<figcaption>기타(ost)</figcaption>
+				</figure>
+			</div>
+		</div>
+	</body>
+</html>
