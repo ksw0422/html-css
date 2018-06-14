@@ -49,7 +49,7 @@
 				<p>엠씨더맥스 이야기(앨범사진을 클릭하세요)</p>
 			</div>
 			<div class="entry">
-				<figure><img src="http://shop1.phinf.naver.net/20170317_48/crazing_14897346860204iwNB_JPEG/14080987763313212_1477541666.jpg" alt="1집" />
+				<figure><a href = "https://ksw0422.github.io/html-css/mypage_1"><img src="http://shop1.phinf.naver.net/20170317_48/crazing_14897346860204iwNB_JPEG/14080987763313212_1477541666.jpg" alt="1집" />
 					<figcaption>1집</figcaption>
 				</figure>
 			</div>
