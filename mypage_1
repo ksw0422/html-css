@@ -8,7 +8,7 @@
 
 <h1>This is a Heading</h1>
 <p>This is a paragraph.</p>
-<img src = "mypage_1.png">
+<img src = "http://www.google.co.kr/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwiGxsyUnNPbAhWDk5QKHU4LAKgQjRx6BAgBEAU&url=http%3A%2F%2Fm.blog.naver.com%2FPostView.nhn%3FblogId%3Dnineblog%26logNo%3D220591199210&psig=AOvVaw3KVGYQd_sYBjhNil9Nwu3p&ust=1529067681036194">
 
 </body>
 </html>
