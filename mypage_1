@@ -1,14 +1,75 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+<title>엠씨더맥스 전설의 시작 (1집)</title>
 <meta charset="utf-8">
-<title>Page Title</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+.header {
+    background-color: #f1f1f1;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Style the footer */
+.footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+</style>
 </head>
 <body>
 
-<h1>This is a Heading</h1>
-<p>This is a paragraph.</p>
-<img src = "http://mblogthumb4.phinf.naver.net/20160108_255/nineblog_1452216337194gmey9_JPEG/%BF%A5%BE%BE%B4%F5%B8%C6%BD%BA_%C0%E1%BD%C3%B8%B8_%BE%C8%B3%E7_%B0%A1%BB%E7.JPG?type=w2">
+<h2>엠씨더맥스 전설의 시작 (1집)</h2>
+<p>M.C THE MAX는 문차일드에 나아가 그들의 모든 것을 보여주겠다는 의미이다. 그런 그들이 문차일드 해체 이후 1년반의 공백기를 거쳐 완성도 높은 1집으로 돌아온다.</p>
+<p>개인적으로 가장 좋아하는 노래인 1집 타이틀곡 잠시만안녕, 그리고 One Love 등 좋은 노래들이 많은 앨범이다.</p>
+
+<div class="header">
+  <h2>Header</h2>
+</div>
+
+<div class="row">
+  <div class="column" style="background-color:#aaa;">Column</div>
+  <div class="column" style="background-color:#bbb;">Column</div>
+  <div class="column" style="background-color:#ccc;">Column</div>
+</div>
+
+<div class="footer">
+  <p>Footer</p>
+</div>
 
 </body>
 </html>
