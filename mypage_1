@@ -55,22 +55,9 @@ body {
 
 <h2>엠씨더맥스 전설의 시작 (1집)</h2>
 <p>M.C THE MAX는 문차일드에 나아가 그들의 모든 것을 보여주겠다는 의미이다. 그런 그들이 문차일드 해체 이후 1년반의 공백기를 거쳐 완성도 높은 1집으로 돌아온다.</p>
-<p>개인적으로 가장 좋아하는 노래인 1집 타이틀곡 잠시만안녕, 그리고 One Love 등 좋은 노래들이 많은 앨범이다.</p>
+<p>개인적으로 가장 좋아하는 노래인 1집 타이틀곡 잠시만 안녕, 그리고 One Love 등 좋은 노래들이 많은 앨범이다.</p>
+<iframe width=630" height="380" src="https://www.youtube.com/embed/3lNuonZ96j4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-<div class="header">
-  <h2>Header</h2>
-  <img src = "C:\Users\김시원\Desktop\1집.jpg">
-</div>
-
-<div class="row">
-  <div class="column" style="background-color:#aaa;">Column</div>
-  <div class="column" style="background-color:#bbb;">Column</div>
-  <div class="column" style="background-color:#ccc;">Column</div>
-</div>
-
-<div class="footer">
-  <p>Footer</p>
-</div>
 
 </body>
 </html>
