@@ -1,12 +1,64 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Page Title</title>
+<title>엠씨더맥스 전설의 시작 (1집)</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+.header {
+    background-color: #f1f1f1;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Style the footer */
+.footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+</style>
 </head>
 <body>
 
-<h1>This is a Heading</h1>
-<p>This is a paragraph.</p>
+<h2>7집(명반 그자체)</h2>
+<p>7년의 기다림 이라는 수식어를 달고 나온 일곱번째 정규 앨범 언베일링이다. 멤버들의 군입대 이후 정말 힘든 시간을 겪고 오랜만에 발표한 컴백작이다. 앨범 표지부터 좋다. 1집 앨범을 뛰어 넘는 최고의 앨범이 나온 듯 하다.</p>
+<p>오랜만에 나와서 그야말로 차트를 휩쓸었던 타이틀곡 그대가 분다를 비롯해 입술의 말, 그때 우리, 백야까지 다 좋다. 좋은 노래들이 많지만 그 중에서도 개인적으로 7집에서도 가장 좋아하는 노래인 그대가 분다와 백야만 영상을 올리도록 하겠다.</p>
 
+<iframe width="630" height="380" src="https://www.youtube.com/embed/i6x69enM1M4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+<iframe width="630" height="380" src="https://www.youtube.com/embed/ZC304HXG2ZU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </body>
 </html>
