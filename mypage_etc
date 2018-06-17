@@ -1,12 +1,64 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Page Title</title>
+<title>엠씨더맥스 전설의 시작 (1집)</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+.header {
+    background-color: #f1f1f1;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Style the footer */
+.footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+</style>
 </head>
 <body>
 
-<h1>This is a Heading</h1>
-<p>This is a paragraph.</p>
+<h2>그 외 곡들(ost 등)</h2>
+<p>돈꽃 ost인 My way, 태양의 후예 ost인 그대 바람이 되어, 냄새를 보는 소녀 ost인 그 남잔 말야, 미녀의 탄생 ost인 바라보기, 8집 앨범의 제 2의 타이틀곡인 그대 그대 그대까지 다 좋은 노래들이니 개인적으로 들어보시면 좋겠다.</p>
+<h4>마치며.</h4>
 
+<p>엠씨더맥스 노래는 지금은 잘 안 듣지만 고등학교 2~3학년 때 매번 즐겨 듣던 노래들이다. 이수가 좋지 않은 일로 인해 방송에 못 나오지만 그의 노래들은 미워하지 마라. 소개한 곡들 이외에도 좋은 노래들이 많으니 찾아보기 바라며 개인적으로 가장 좋아하는 노래인 잠시만 안녕의 170618 브이홀 퇴근길 떼창을 마지막으로 엠씨더맥스 연대기는 마치겠습니다.</p>
+
+<iframe width="630" height="380" src="https://www.youtube.com/embed/Rwr2_7hTOQw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </body>
-</html>
+</html> 
