@@ -1,12 +1,64 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Page Title</title>
+<title>엠씨더맥스 전설의 시작 (1집)</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+.header {
+    background-color: #f1f1f1;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Style the footer */
+.footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+</style>
 </head>
 <body>
 
-<h1>This is a Heading</h1>
-<p>This is a paragraph.</p>
+<h2>8집</h2>
+<p>2년만에 8집앨범을 들고 다시 돌아왔다. 7집과 8집 사이에도 멤버간 불화, 그 불화를 싹트게 한 나가수 사건 등으로 또 다시 힘든 시기를 거쳤지만 다시 좋은 앨범을 들고 나왔다.</p>
+<p>8집 = 어디에도 = 엠씨더맥스의 결정체. 이 노래를 모르는 사람은 없을 것이다. 최고음 3옥레까지 올라가는 괴물과 같은 노래. 모든 사람들이 부르려고 애쓰지만 실패하는 노래 타이틀곡 어디에도를 비롯해 어김없이 등 좋은 노래들이 있다. 어김없이는 이수가 라이브로 안부르는 유일한 노래.</p>
 
+<iframe width="630" height="380" src="https://www.youtube.com/embed/3KSt2MgRLHU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+<iframe width="630" height="380" src="https://www.youtube.com/embed/cQbHjOduepU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </body>
 </html>
