@@ -1,12 +1,62 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Page Title</title>
+<title>엠씨더맥스 전설의 시작 (1집)</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+.header {
+    background-color: #f1f1f1;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Style the footer */
+.footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+</style>
 </head>
 <body>
 
-<h1>This is a Heading</h1>
-<p>This is a paragraph.</p>
+<h2>6집</h2>
+<p>2008년에 솔로활동에 주력해서 또 다시 해체설이 나돌았었는데 6집을 발표함으로써 잠재웠다.</p>
+<p>고등학교 2학년때 엠씨더맥스 노래를 처음 접하게 되었고, 야자 시간에 엠씨더맥스 노래를 들으면서 공부를 하곤 했었다. 타이틀곡 눈물은 모르게도  많이 듣곤 했던 노래다. 잘 모르는 사람들도 많을텐데 좋은 노래 중 하나다.</p>
 
+<iframe width="630" height="380" src="https://www.youtube.com/embed/x1JYqcKDBPA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </body>
 </html>
