@@ -58,5 +58,11 @@ body {
 <p>이전 앨범과는 달리 좋은 노래는 타이틀곡인 '사랑은 아프려고 하는거죠' 하나 있다.</p>
 
 <iframe width="630" height="380" src="https://www.youtube.com/embed/FSJCQ_4xQ_c" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+<button type="button" onclick="location.href = 'https://ksw0422.github.io/html-css/mypage_intro'">main</button>
+
+ 
+
+<br><br><br>
 </body>
-</html>
+</html> 
